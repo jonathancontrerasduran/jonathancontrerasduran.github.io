@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Práctica 1</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+               <!--  <style type="text/css">
+            *{
+                margin:  0;
+                padding: 0;
+            }
+            /*  centra las etiquetas header, nav, main, footer en el navegador en forma horizontal*/
+            header,nav,main,footer{
+                width: 1600px;
+                height: 100px;
+                background-color: #5a19c7;
+                color: #3ad2de;
+                padding: 50px;
+                text-align:justify;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            nav{
+                width: 1600px;
+                height: 50px;
+                background-color: #590059;
+                text-align: center;
+            }
+            main{
+                width: 1600px;
+                height: auto;
+                background-color: #f0459b
+            }
+            footer{
+                width: 1600px;
+                height: 200px;
+                background-color: #0e4990;
+            }
+            nav ul li {
+                list-style-type: none;
+                display: inline-block;
+                background-color: #073b0d;
+                padding: 10px;
+                width: 160px;
+                height: 20px;
+                text-align: center;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            h1, h5{
+                text-align: center
+            }
+            section{
+                width: 800px;
+                height: auto;
+                background-color:#270a0a;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 30px;
+                padding: 50px;
+            }
+            section ul, section ol{
+                padding: 30px
+            }
+            section h2{
+                margin-bottom: 20px;
+            }
+            /*Da estilo a los estados de los enlaces*/
+            nav ul li a :visited,nav ul li a:link{
+                text-decoration: none;
+                color: #fad845;
+            }
+            nav ul li a:hover{
+                color: lightpink;
+                font-size: large;
+            }
+            /*  da estilo al estado hover del elemento */
+            nav ul li:hover{
+                background-color: #083324
+            }
+            main nav{
+                width: 1000px;
+                background-color: #0b136d
+            }
+            main a:visited,main a:link{
+                text-decoration: none;
+                color: #fad845
+            }
+        </style>-->
+    </head>
+    <body>
+        <header class="centrar">
+            <h1>PRACTICA 1 FORMATOS DE TEXTO</h1>
+        </header>
+       <nav class="centrar">
+           <a href="index.html"><img class="img-xxsmall img-float-izq img-centrar" src="img/casa.png" alt="casa"></a>
+        <ul class="menu">
+            <li><a href="practica_uno.html">Formatos</a></li>
+            <li><a href="listass.html">Listas</a></li>
+            <li><a href="enlaces%20opt.html">Enlaces</a></li>
+            <li><a href="tablas.html">Tablas</a></li>
+            <li><a href="imagenes.html">Imagenes</a></li>
+            <li><a href="audios.html">Audio</a></li>
+            <li><a href="videos.html">Video</a></li>
+            <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main class="main">
+            <section>
+                <h2 id="n_1">Negritas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer a porta tellus. Donec vulputate purus sit amet urna elementum maximus.
+                    Curabitur molestie dui mauris, quis vestibulum augue dictum at.
+                    Phasellus euismod pretium ante eget placerat.<b>Lorem ipsum dolor sit amet.</b> In arcu elit, laoreet eu mi nec, sodales egestas nunc.
+                    Etiam nec nibh vel dolor porttitor dictum. Nulla sodales ultrices vehicula.
+                    Cras ex arcu, mattis eu semper sit amet, bibendum vitae nisl.
+                    Nulla scelerisque ultricies lorem in sollicitudin. Aliquam non commodo dui.
+                    Sed porta, massa in finibus tempus, metus est ultrices tortor, vitae facilisis erat quam vitae elit.
+                    Sed viverra, lorem et malesuada congue, ipsum.</p>
+            </section>
+            <section>
+                <h2 id="ic_2">Itálicas o cursivas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer a porta tellus. Donec vulputate purus sit amet urna elementum maximus.
+                    Curabitur molestie dui mauris, quis vestibulum augue dictum at.
+                    Phasellus euismod pretium <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in felis semper, porta nunc at, pulvinar felis. Morbi fringilla purus.</i>ante eget placerat. In arcu elit, laoreet eu mi nec, sodales egestas nunc.
+                    Etiam nec nibh vel dolor porttitor dictum. Nulla sodales ultrices vehicula.
+                    Cras ex arcu, mattis eu semper<b><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Mauris in felis semper, porta nunc at, pulvinar felis. Morbi fringilla purus.</i></b> sit amet,
+                    bibendum vitae nisl.
+                    Nulla scelerisque ultricies lorem in sollicitudin. Aliquam non commodo dui.
+                    Sed porta, massa in finibus tempus, metus est ultrices tortor, vitae facilisis erat quam vitae elit.
+                    Sed viverra, lorem et malesuada congue, ipsum</p>
+            </section>
+            <section>
+                <h2 id="m_3">Marcatextos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer a porta tellus. Donec vulputate purus sit amet urna elementum maximus.
+                    Curabitur<mark>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in felis
+                    semper, porta nunc at, pulvinar felis. Morbi fringilla purus.</mark> molestie dui mauris,
+                    quis vestibulum augue dictum at.
+                    Phasellus euismod pretium ante eget placerat. In arcu elit, laoreet eu mi nec, sodales egestas nunc.
+                    Etiam nec nibh vel dolor porttitor dictum. Nulla sodales ultrices vehicula.
+                    Cras ex arcu, mattis eu semper sit amet, bibendum vitae nisl.
+                    Nulla scelerisque ultricies lorem in sollicitudin. Aliquam non commodo dui.
+                    Sed porta, massa in finibus tempus, metus est ultrices tortor, vitae facilisis erat quam vitae elit.
+                    Sed viverra, lorem et malesuada congue, ipsum</p>
+            </section>
+            <section>
+                <h2 id="T_4">Tachado</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer a porta tellus. Donec vulputate purus sit amet urna elementum maximus.
+                    Curabitur molestie dui mauris, quis vestibulum augue dictum at.
+                    Phasellus euismod <del>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in felis semper,
+                    porta nunc at, pulvinar felis.
+                    Morbi fringilla purus.</del>pretium ante eget placerat. In arcu elit, laoreet eu mi nec, sodales egestas nunc.
+                    Etiam nec nibh vel dolor porttitor dictum. Nulla sodales ultrices vehicula.
+                    Cras ex arcu, mattis eu semper sit amet, bibendum vitae nisl.
+                    Nulla scelerisque ultricies lorem in sollicitudin. Aliquam non commodo dui.
+                    Sed porta, massa in finibus tempus, metus est ultrices tortor, vitae facilisis erat quam vitae elit.
+                    Sed viverra, lorem et malesuada congue, ipsum</p>
+            </section>
+            <section>
+                <h2 id="ss_5">Subíndice y Superíndice</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer a porta tellus. Donec vulputate purus sit amet urna elementum maximus.
+                    Curabitur molestie dui mauris, quis vestibulum augue dictum at.
+                    Phasellus <b>LA FORMULA DEL AGUA ES H<sub>2</sub>O</b> euismod pretium ante eget placerat. In
+                    arcu elit, laoreet eu mi nec, sodales egestas nunc.
+                    Etiam nec nibh vel dolor porttitor dictum. Nulla sodales ultrices vehicula.
+                    Cras ex arcu, mattis eu semper sit amet, bibendum vitae nisl.
+                    Nulla scelerisque ultricies lorem in sollicitudin. Aliquam non commodo dui.
+                    Sed porta, massa <b>EL TEOREMA DE PITAGORAS DICE QUE LA <mark>HIPOTENUSA</mark> AL CUADRADO ES IGUAL A LA SUMA DE LOS CUADRADOS DE LOS CATETOS Y SU FORMULA MATEÁTICA ES: <i>h<sup>2</sup>=c<sup>2</sup>+c<sup>2</sup></i></b> in finibus tempus, metus est ultrices tortor, vitae facilisis erat quam vitae elit.
+                    Sed viverra, lorem et malesuada congue, ipsum</p>
+            </section>
+             <nav class="centrar">
+            <ul class="menu">
+                <li><a href="#n_1">Negritas</a></li>
+                <li><a href="#ic_2">Itálicas o cursivas</a></li>
+                <li><a href="#m_3">Marcatextos</a></li>
+                <li><a href="#T_4">Tachado</a></li>
+                <li><a href="#ss_5">Subíndice y Superíndice</a></li>
+                </ul>
+            </nav>
+        </main>
+        <footer>
+        <h5>Elaborado por Contreras Durán Jonathan</h5>
+        </footer>
+    </body>
+</html>
